@@ -140,11 +140,64 @@
 						<xsl:with-param name="price-op" select="'above'"/>
 					</xsl:apply-templates>
 
+					<!-- order form -->
+
+					<xsl:call-template name="order-form"/>
+
+					<xsl:apply-templates select="wines/style[@id='red']">
+						<xsl:with-param name="context">order-form</xsl:with-param>
+					</xsl:apply-templates>
+
+					<xsl:apply-templates select="wines/style[@id='sparkling']">
+						<xsl:with-param name="break">page</xsl:with-param>
+						<xsl:with-param name="context">order-form</xsl:with-param>
+					</xsl:apply-templates>
+
+					<xsl:apply-templates select="wines/style[@id='white']">
+						<xsl:with-param name="context">order-form</xsl:with-param>
+					</xsl:apply-templates>
+
 				</fo:flow>
 
 			</fo:page-sequence>
 
 		</fo:root>
+	</xsl:template>
+
+	<xsl:template name="order-form">
+		<fo:block>
+			<fo:marker marker-class-name="sectionid"> </fo:marker>
+		</fo:block>
+		<fo:block	color="maroon"
+							break-before="page"
+							font-family="Lucida Sans"
+							font-size="13pt"
+							keep-with-next.within-page="always"
+							letter-spacing="0.1em"
+							margin-top="24pt"	margin-bottom="0.3em"
+							margin-left="0pt" margin-right="5em"
+							text-align="center"
+							text-transform="uppercase"
+					>
+			Wine Order
+		</fo:block>
+		<fo:block
+							font-family="ETBembo"
+							font-size="10pt"
+							hyphenate="true"
+							hyphenation-character="-"
+							keep-together.within-page="always"
+							line-height="1.3em"
+							space-before="0.25in"	space-after="0pt"
+							start-indent="0pt"	end-indent="72pt"
+							text-align="left"
+		>
+			Telephone 020 3689 7930, or write to me at sparkling@msn.com, to tell me what you want.
+			(Remember to tell me your address!)
+			Or print these last pages and circle the price/s of the wine/s you want. 
+			(Write the number of cases beside the price to order more than one case of a wine.)
+			Post the form to me at Bouquet Wines, 16 Holland Park Avenue, London W11 3QU.
+		</fo:block>
 	</xsl:template>
 
 
@@ -246,6 +299,7 @@
 	<!-- style -->
 	<xsl:template	match="style">
 		<xsl:param name="break">none</xsl:param>
+		<xsl:param name="context">list</xsl:param>
 		<xsl:param name="header-text">none</xsl:param>
 		<xsl:param name="price-op"/>
 		<xsl:param name="duty">
@@ -261,7 +315,6 @@
 
 		<fo:block	color="maroon"
 							font-family="Lucida Sans"
-							font-size="13pt"
 							keep-with-next.within-page="always"
 							letter-spacing="0.1em"
 							margin-top="24pt"	margin-bottom="0.3em"
@@ -270,6 +323,14 @@
 							text-transform="uppercase"
 					>
 			<xsl:if test="$break='page'"><xsl:call-template name="page-break"/></xsl:if>
+			<xsl:choose>
+				<xsl:when test="$context='list'">
+					<xsl:attribute name="font-size">13pt</xsl:attribute>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:attribute name="font-size">10pt</xsl:attribute>
+				</xsl:otherwise>
+			</xsl:choose>
 			<xsl:value-of select="@name"/>
 		</fo:block>
 
@@ -280,8 +341,9 @@
 		</xsl:if>
 
 		<xsl:apply-templates select="wine">
-			<xsl:with-param name="duty"><xsl:value-of select="$duty"/></xsl:with-param>
-			<xsl:with-param name="price-op"><xsl:value-of select="$price-op"/></xsl:with-param>
+			<xsl:with-param name="context" select="$context"/>
+			<xsl:with-param name="duty" select="$duty"/>
+			<xsl:with-param name="price-op" select="$price-op"/>
 		</xsl:apply-templates>
 
 	</xsl:template>
@@ -295,6 +357,7 @@
 
 
 	<xsl:template match="wine">
+		<xsl:param name="context">list</xsl:param>
 		<xsl:param name="duty">0.00</xsl:param>
 		<xsl:param name="price-op">none</xsl:param>
 		<xsl:param name="case-plus-vat"     select="($duty + caseprice)* (1 + $vat-rate div 100)"/>
@@ -310,6 +373,7 @@
 			<xsl:when test="$price-op='up to'">
 				<xsl:if test="$show-bottle-price &lt;= $price-break">
 					<xsl:call-template name="show-this-wine">
+						<xsl:with-param name="context"           select="$context"/>
 						<xsl:with-param name="show-case-price"   select="$show-case-price"/>
 						<xsl:with-param name="show-bottle-price" select="$show-bottle-price"/>
 						<xsl:with-param name="show-magnum-price" select="$show-magnum-price"/>
@@ -319,6 +383,7 @@
 			<xsl:when test="$price-op='above'">
 				<xsl:if test="$show-bottle-price &gt; $price-break">
 					<xsl:call-template name="show-this-wine">
+						<xsl:with-param name="context"           select="$context"/>
 						<xsl:with-param name="show-case-price"   select="$show-case-price"/>
 						<xsl:with-param name="show-bottle-price" select="$show-bottle-price"/>
 						<xsl:with-param name="show-magnum-price" select="$show-magnum-price"/>
@@ -327,6 +392,7 @@
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:call-template name="show-this-wine">
+					<xsl:with-param name="context"           select="$context"/>
 					<xsl:with-param name="show-case-price"   select="$show-case-price"/>
 					<xsl:with-param name="show-bottle-price" select="$show-bottle-price"/>
 					<xsl:with-param name="show-magnum-price" select="$show-magnum-price"/>
@@ -337,43 +403,78 @@
 	</xsl:template>
 
 	<xsl:template name="show-this-wine">
+		<xsl:param name="context"/>
 		<xsl:param name="show-case-price"/>
 		<xsl:param name="show-bottle-price"/>
 		<xsl:param name="show-magnum-price"/>
 
 		<!-- name, domain, caseprice -->
-		<fo:block
-							font-size="14pt"
-							font-style="italic"
-							keep-together.within-page="always"
-							keep-with-next.within-page="always"
-							letter-spacing="0.05em"
-							space-before="18pt"	space-after="6pt"
-							start-indent="0pt"	end-indent="0pt"
-							text-align-last="justify"
-		>
-			<xsl:apply-templates select="name"/>
-			<fo:leader leader-pattern="space"/>
-			<xsl:apply-templates select="caseprice"><xsl:with-param name="show-case-price" select="$show-case-price"/></xsl:apply-templates>
-		</fo:block>
+		<xsl:choose>
+			<xsl:when test="$context='list'">
+				<fo:block
+									font-size="14pt"
+									font-style="italic"
+									keep-together.within-page="always"
+									keep-with-next.within-page="always"
+									letter-spacing="0.05em"
+									space-before="18pt"	space-after="6pt"
+									start-indent="0pt"	end-indent="0pt"
+									text-align-last="justify"
+				>
+					<xsl:apply-templates select="name"/>
+					<fo:leader leader-pattern="space"/>
+					<xsl:apply-templates select="caseprice"><xsl:with-param name="show-case-price" select="$show-case-price"/></xsl:apply-templates>
+				</fo:block>
+			</xsl:when>
+			<xsl:otherwise>
+				<fo:block
+									font-size="10pt"
+									font-style="italic"
+									keep-together.within-page="always"
+									keep-with-next.within-page="always"
+									letter-spacing="0.05em"
+									space-before="6pt"	space-after="6pt"
+									start-indent="0pt"	end-indent="40pt"
+									text-align-last="justify"
+				>
+					<xsl:apply-templates select="name"/>
+					<xsl:text> </xsl:text>
+					<fo:leader>
+						<xsl:choose>
+							<xsl:when test="$context='list'">
+								<xsl:attribute name="leader-pattern">space</xsl:attribute>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:attribute name="leader-pattern">dots</xsl:attribute>
+							</xsl:otherwise>
+						</xsl:choose>
+					</fo:leader>
+					<xsl:text> </xsl:text>
+					<xsl:apply-templates select="caseprice"><xsl:with-param name="show-case-price" select="$show-case-price"/></xsl:apply-templates>
+				</fo:block>
+			</xsl:otherwise>
+		</xsl:choose>
+
 
 		<!-- description -->
-		<fo:block
-							font-size="10pt"
-							hyphenate="true"
-							hyphenation-character="-"
-							keep-together.within-page="always"
-							line-height="1.3em"
-							space-before="0in"	space-after="0pt"
-							start-indent="14pt"	end-indent="72pt"
-							text-align="left"
-		>
-			<xsl:apply-templates select="description">
-				<xsl:with-param name="show-case-price"   select="$show-case-price"/>
-				<xsl:with-param name="show-bottle-price" select="$show-bottle-price"/>
-				<xsl:with-param name="show-magnum-price" select="$show-magnum-price"/>
-			</xsl:apply-templates>
-		</fo:block>
+		<xsl:if test="$context='list'">
+			<fo:block
+								font-size="10pt"
+								hyphenate="true"
+								hyphenation-character="-"
+								keep-together.within-page="always"
+								line-height="1.3em"
+								space-before="0in"	space-after="0pt"
+								start-indent="14pt"	end-indent="72pt"
+								text-align="left"
+			>
+				<xsl:apply-templates select="description">
+					<xsl:with-param name="show-case-price"   select="$show-case-price"/>
+					<xsl:with-param name="show-bottle-price" select="$show-bottle-price"/>
+					<xsl:with-param name="show-magnum-price" select="$show-magnum-price"/>
+				</xsl:apply-templates>
+			</fo:block>
+		</xsl:if>
 
 	</xsl:template>
 
