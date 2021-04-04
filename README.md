@@ -33,6 +33,7 @@ Requirements
 ------------
 
 * Hugo static-site generator
+* [`hugo-split-theme`](https://onepagelove.com/split)
 * XSLT processor
 * XSL-FO rendering engine
 * ET Book font
