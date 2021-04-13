@@ -30,7 +30,7 @@ I hold a number of tastings of wines from this list throughout the year, as well
 
 **ORDERING** All prices are per case of 12 bottles, including VAT, and there is a minimum order of one case. Delivery in the London area is free for orders of £350 or more. Smaller orders can be delivered at a cost of £15.50 including VAT.
 
-Download the [**stock-clearance offers**](special-offers.pdf "Download PDF")!
+<!-- Download the [**stock-clearance offers**](special-offers.pdf "Download PDF")! -->
 
 Email your order to sparkling@msn.com or send an [order form](order-form.pdf "Download PDF") to
 
