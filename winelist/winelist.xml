@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <winelist>
-	<season>Spring/Summer 2021</season>
+	<season>Autumn/Winter 2021</season>
 	<!--
 			PRICES
 			Case prices are specified here ex-VAT;
@@ -180,7 +180,7 @@
 				<caseprice>157.36</caseprice>
 				<description>
 					It’s rare that a ‘Petit Chablis’ makes an impression, but this wine from <person>Bernard Billaud</person>
-					always stands out in comparative tastings. From the outstanding 2017 vintage, its unoaked, pure, lemony character combined with zingy acidity and minerality would give many more
+					always stands out in comparative tastings. Its unoaked, pure, lemony character combined with zingy acidity and minerality would give many more
 					expensive Chablis a run for their money (<bottleprice/> a bottle).
 				</description>
 			</wine>
@@ -188,7 +188,7 @@
         <name>Chablis 2018 <domain>Domaine Billaud-Simon</domain></name>
 				<caseprice>187.70</caseprice>
 				<description>
-					This is textbook Chablis from one of my favourite producers and the excellent 2017 vintage. It combines tingling acidity with appetising citrus, 
+					This is textbook Chablis from one of my favourite producers and an excellent vintage. It combines tingling acidity with appetising citrus, 
 					white peach and green apple flavours. Delicious now, it will reward cellaring for another five years or longer (<bottleprice/> a bottle).
 				</description>
 			</wine>
@@ -263,7 +263,7 @@
 	        </description>
 	      </wine>
 	      <wine>
-				<name>Lugana 2019 <domain>Nunzio Ghiraldi</domain></name>
+				<name>Lugana 2020 <domain>Nunzio Ghiraldi</domain></name>
 				<caseprice>97.60</caseprice>
 				<description>
 					Trebbiano di Lugana is actually the Verdicchio grape, and is responsible for some
@@ -307,8 +307,8 @@
 				</description>
 			</wine>
 		    <wine>
-				<name>La Segreta Biancho 2019 <domain>Planeta</domain></name>
-				<caseprice>83.20</caseprice>
+				<name>La Segreta Bianco 2019 <domain>Planeta</domain></name>
+				<caseprice>83.25</caseprice>
 				<description>
 					When I first visited this dynamic Sicilian producer in 2004, I found its
 					state-of-the-art winery and the quality of its wines most impressive.  Returning
@@ -319,7 +319,7 @@
 				</description>
 			</wine>
 		    <wine>
-				<name>Etna Biancho 2018 <domain>Planeta</domain></name>
+				<name>Etna Bianco 2019 <domain>Planeta</domain></name>
 				<caseprice>163.04</caseprice>
 				<description>
 					The volcanic slopes of Mount Etna in Sicily are home to this distinctive wine from the
@@ -418,7 +418,7 @@
 				</description>
 			</wine>
 			<wine>
-				<name>Château Roubine Premier Cru 2019</name>
+				<name>Château Roubine Premier Cru 2020</name>
 				<caseprice>178.99</caseprice>
 				<description>
 					Provençal rosés are much in vogue at the moment, and many can be short on depth and flavour. Desite its pale, blush pink colour, this lovely blend of the local Tibouren grape plus Cinsault, Grenache, Mourvèdre and
@@ -494,10 +494,10 @@
 			</wine>
 		
  			<wine>
-				<name>Marques de Murrieta Rioja Reserva 2016</name>
+				<name>Marqués de Murrieta Rioja Reserva 2016</name>
 					<caseprice>177.55</caseprice>
 				<description>
-					Marques de Murrieta is one of the two oldest Rioja producers, the other being the Marques de Riscal, and its wines today are better than ever. 
+					Marqués de Murrieta is one of the two oldest Rioja producers, the other being the Marques de Riscal, and its wines today are better than ever. 
 					The 2016 Reserva, a blend of Tempranillo, Mazuelo, Graciano and Garnacha grapes, has been aged for 20 months in American oak and another year
 					in bottle before release. It’s drinking beautifully now, showing ripe cherry, blackberrry and plum fruit with a hint of mocha, plus silky tannins and balancing acidity. 
 					I’d serve it with most red meat, game birds, and turkey (<bottleprice/> a bottle). It’s also available in 50 cl bottles, perfect for those times when a full bottle
@@ -667,7 +667,7 @@
 			
 		<style name="Champagne &amp; sparkling wine" id="sparkling">
 			<wine>
-				<name>Billecart-Salmon <acronym title="no vintage">NV</acronym> Brut</name>
+				<name>Billecart-Salmon <acronym title="no vintage">NV</acronym> Brut Réserve</name>
 				<caseprice>385.12</caseprice>
 				<description>
 					Everyone has a favourite Champagne and this is mine. I love its
