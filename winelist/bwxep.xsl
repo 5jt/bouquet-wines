@@ -360,14 +360,13 @@
 		<xsl:param name="context">list</xsl:param>
 		<xsl:param name="duty">0.00</xsl:param>
 		<xsl:param name="price-op">none</xsl:param>
-		<xsl:param name="case-plus-vat"     select="($duty + caseprice)* (1 + $vat-rate div 100)"/>
-<!--	<xsl:param name="case-plus-vat"     select="$duty + caseprice * (1 + $vat-rate div 100)"/> -->
-<!--	<xsl:param name="case-plus-vat"     select="caseprice * (1 + $vat-rate div 100)"/> -->
-		<xsl:param name="show-case-price"   select="format-number($rnd*round(($case-plus-vat div  1) div $rnd),'##0.00')"/>
-		<xsl:param name="raw-bottle-price"  select=              "$rnd*round(($case-plus-vat div 12) div $rnd)"/>
-		<xsl:param name="bottle-roundup"    select="$rnd * number($case-plus-vat &gt; (12*$raw-bottle-price))"/>
+		<xsl:param name="vat-paid"          select="($duty + caseprice * .75) * ($vat-rate div 100)"/>
+		<xsl:param name="full-retail"       select="$vat-paid + $duty + caseprice"/>
+		<xsl:param name="show-case-price"   select="format-number($rnd*round(($full-retail div  1) div $rnd),'##0.00')"/>
+		<xsl:param name="raw-bottle-price"  select=              "$rnd*round(($full-retail div 12) div $rnd)"/>
+		<xsl:param name="bottle-roundup"    select="$rnd * number($full-retail &gt; (12*$raw-bottle-price))"/>
 		<xsl:param name="show-bottle-price" select="format-number($raw-bottle-price + $bottle-roundup,'##0.00')"/>
-		<xsl:param name="show-magnum-price" select="format-number($rnd*round(($case-plus-vat div  6) div $rnd),'##0.00')"/>
+		<xsl:param name="show-magnum-price" select="format-number($rnd*round(($full-retail div  6) div $rnd),'##0.00')"/>
 
 		<xsl:choose>
 			<xsl:when test="$price-op='up to'">
