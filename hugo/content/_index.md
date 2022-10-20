@@ -28,7 +28,7 @@ I hold a number of tastings of wines from this list throughout the year, as well
 
 ![signature](images/signature.gif)
 
-**ORDERING** All prices are per case of 12 bottles, including VAT, and there is a minimum order of one case. Delivery in the London area is free for orders of £350 or more. Smaller orders can be delivered at a cost of £15.50 including VAT.
+**ORDERING** All prices are per case of 12 bottles, and there is a minimum order of one case. Delivery in the London area is free for orders of £350 or more. Smaller orders can be delivered at a cost of £15.50.
 
 <!-- Download the [**stock-clearance offers**](special-offers.pdf "Download PDF")! -->
 
