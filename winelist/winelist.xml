@@ -13,7 +13,7 @@
 	-->
 	<vatrate>20</vatrate><!-- % -->
 	<duty><!-- duty per dozen, ie per case -->
-		<still>25.98</still>
+		<still>26.76</still>
 		<sparkling>34.32</sparkling>
 	</duty>
 	<!--
