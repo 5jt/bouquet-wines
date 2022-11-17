@@ -119,7 +119,7 @@
 		<style name="Whites" id="white">
 			<wine>
 				<name>Grüner Veltliner Löss 2021 <domain>Schloss Gobelsburg</domain></name>
-				<caseprice>94.24</caseprice>
+				<caseprice>70.68</caseprice>
 				<description>
 					The Grüner Veltliner is Austria’s prime grape variety, producing dry,
 					fruity wines with an attractive peppery, herbal character. The finest
@@ -131,7 +131,7 @@
 			</wine>
 			<wine>
 				<name>Grüner Veltliner Weinzierlberg 2020 <domain>Stadt Krems</domain></name>
-				<caseprice>113.28</caseprice>
+				<caseprice>84.96</caseprice>
 				<description>
 					Austria’s Grüner Veltliner grape produces a variety of wine styles, from
 					simple, light quaffing wines to rich, multi-faceted wines rivalling many
@@ -144,7 +144,7 @@
 			</wine>
 			<wine>
 				<name>Riesling Steinterrassen 2020 <domain>Stadt Krems</domain></name>
-				<caseprice>113.28</caseprice>
+				<caseprice>84.96</caseprice>
 				<description>
 					The boyish-looking <person>Fritz Miesbauer</person> propelled the Austrian
 					co-operative Freie Weingärtner Wachau to fame in the 1990s and has now
@@ -156,7 +156,7 @@
 			</wine>
     		<wine>
 				<name>Sauvignon Blanc 2021 <domain>Rapaura Springs</domain></name>
-				<caseprice>98.72</caseprice>
+				<caseprice>74.04</caseprice>
 				<description>
 					Sauvignon Blanc has become the signature wine grape of New Zealand, and this
 					tasty example, with its combination of zingy
@@ -167,7 +167,7 @@
 			</wine>
 			<wine>
 				<name>Premium Sauvignon Blanc 2020 <domain>Vergelegen</domain></name>
-				<caseprice>83.60</caseprice>
+				<caseprice>62.70</caseprice>
 				<description>
 					During my visit to South Africa in 2015 I tasted many Sauvignon Blancs and Vergelegen’s was among my top picks. The 2020 offers
 					seductive lime blossom, gooseberry and passion fruit aromas and an elegant balance of fresh acidity and ripe fruit flavours. It makes
@@ -176,8 +176,8 @@
 			</wine>
 			
 			<wine>
-        <name>Petit Chablis 2019 <domain>Domaine Billaud-Simon</domain></name>
-				<caseprice>177.92</caseprice>
+		        <name>Petit Chablis 2019 <domain>Domaine Billaud-Simon</domain></name>
+				<caseprice>133.44</caseprice>
 				<description>
 					It’s rare that a ‘Petit Chablis’ makes an impression, but this wine from <person>Bernard Billaud</person>
 					always stands out in comparative tastings. Its unoaked, pure, lemony character combined with zingy acidity and minerality would give many more
@@ -185,8 +185,8 @@
 				</description>
 			</wine>
 			<wine>
-        <name>Chablis 2019 <domain>Domaine Billaud-Simon</domain></name>
-				<caseprice>203.25</caseprice>
+		        <name>Chablis 2019 <domain>Domaine Billaud-Simon</domain></name>
+				<caseprice>152.42</caseprice>
 				<description>
 					This is textbook Chablis from one of my favourite producers and an excellent vintage. It combines tingling acidity with appetising citrus, 
 					white peach and green apple flavours. Delicious now, it will reward cellaring for another five years or longer (<bottleprice/> a bottle).
@@ -194,7 +194,7 @@
 			</wine>
 			<wine>
 				<name>Saint Véran ‘Les Pierres Blanches’ 2020 <domain>Cave de Prissé</domain></name>
-				<caseprice>140.32</caseprice>
+				<caseprice>106.00</caseprice>
 				<description>
 					The impressive Cave de Prissé in the Mâcon region of southern Burgundy is the area’s foremost producer of Saint Véran,
 					and ‘Les Pierres Blanches’ has been providing remarkably consistent enjoyment at very
@@ -204,7 +204,7 @@
 			</wine>
 				<wine>
 				<name>Saint Véran  2020 <domain>Domaine Saumaize-Michelin</domain></name>
-				<caseprice>177.65</caseprice>
+				<caseprice>133.24</caseprice>
 				<description>
 					Many of the best producers of Saint Véran are now making wines that rival those 
 					of their more renowned and highly-priced neighbour, Pouilly-Fuissé.
@@ -214,7 +214,7 @@
 			</wine>
 			<wine>
       			<name>Chardonnay Grand Ardèche 2019 <domain>Louis Latour</domain></name>
-				<caseprice>126.05</caseprice>
+				<caseprice>94.54</caseprice>
 				<description>
 					<person>Jancis Robinson</person>, <acronym title="Master of Wine">MW</acronym>
 					colleague and wine writer, described this elegant, subtly oaked
@@ -227,7 +227,7 @@
      
 			<wine>
 				<name>Reserve Chardonnay 2019 <domain>Vergelegen</domain></name>
-				<caseprice>143.47</caseprice>
+				<caseprice>107.60</caseprice>
 				<description>
 					Wines from South Africa tend to lie somewhere between the rich, ripe styles of New World wines and the 
 					more subtle styles of the Old World. Vergelegen’s elegant Reserve Chardonnay combines smoky tropical aromas and flavours of
@@ -237,7 +237,7 @@
 			</wine>
 			<wine>
 				<name>Kim Crawford Pinot Gris 2021</name>
-				<caseprice>146.72</caseprice>
+				<caseprice>110.04</caseprice>
 				<description>
 					I visited <person>Kim Crawford</person>’s winery in Marlborough on my trip to New Zealand in 2005 and was captivated by this wine, with its rich, almost savoury character and silky texture. Pinot Gris is rapidly gaining a reputation for quality
 					 in New Zealand, and this is one of the tastiest examples I’ve come across, and makes a delightful aperiif but has enough body and concentration to partner pork, ham or <phrase lang="fr">charcuterie</phrase> (<bottleprice/> a bottle).
@@ -245,18 +245,18 @@
 			</wine>
 			<wine>
 			  <name>Falerio 2020 <domain>Saladini Pilastri</domain></name>
-	        <caseprice>63.20</caseprice>
-	        <description>
-	          This tasty blend of Trebbiano, Passerina and Pecorino grapes comes
-	          from the 300 year-old organic estate of <person>Count Saladini Pilastri</person> in The Marche region
-	          of northeast Italy.  I love its crisp apple and pear flavours and would happily drink
-	          it with lighter fare like <phrase lang="it">risotto</phrase> with prawns,
-	          roast cod, or guinea fowl (<bottleprice/> a bottle).
-	        </description>
-	      </wine>
-	      <wine>
-				<name>Lugana 2020 <domain>Nunzio Ghiraldi</domain></name>
-				<caseprice>104.32</caseprice>
+		        <caseprice>47.40</caseprice>
+		        <description>
+		          This tasty blend of Trebbiano, Passerina and Pecorino grapes comes
+		          from the 300 year-old organic estate of <person>Count Saladini Pilastri</person> in The Marche region
+		          of northeast Italy.  I love its crisp apple and pear flavours and would happily drink
+		          it with lighter fare like <phrase lang="it">risotto</phrase> with prawns,
+		          roast cod, or guinea fowl (<bottleprice/> a bottle).
+		        </description>
+			</wine>
+			<wine>
+				<name>Lugana 2021 <domain>Nunzio Ghiraldi</domain></name>
+				<caseprice>81.12</caseprice>
 				<description>
 					Trebbiano di Lugana is actually the Verdicchio grape, and is responsible for some
 					remarkable wines in vineyards near the shores of Lake Garda in Lombardia.
@@ -268,7 +268,7 @@
 			</wine>
 			<wine>
 				<name>Verdicchio di Matelica 2020 <domain>La Monacesca</domain></name>
-				<caseprice>116.64</caseprice>
+				<caseprice>90.48</caseprice>
 				<description>
 					To people used to the dull Verdicchio of the past, the wines now produced
 					from this grape are an exciting revelation. This
@@ -277,19 +277,9 @@
 					guava and white peaches plus a hint of camomile (<bottleprice/> a bottle).
 				</description>
 			</wine>
-			<wine>
-				<name>‘Mirum’ Verdicchio di Matelica Riserva 2018 <domain>La Monacesca</domain></name>
-				<caseprice>189.60</caseprice>
-				<description>
-					On first tasting this extraordinary wine a few years ago, I was bowled over by its richness and complexity. More reminiscent 
-					of a fine white Burgundy than a Verdicchio, it offers abundant flavours and aromas of honey, toasted nuts and poached peaches balanced by a 
-					refreshing acidity. Try it with rich, creamy dishes like <phrase lang="it">vitello tonato</phrase> or spicy, salty Thai or Chinese fare. 
-					It also ages beautifully, gaining complexity over the years (<bottleprice/> a bottle).
-				</description>
-			</wine>
 			<wine >
 				<name>Greco di Tufo ‘Loggia della Terre’ 2020 <domain>Terredora</domain></name>
-				<caseprice>132.48</caseprice>
+				<caseprice>98.64</caseprice>
 				<description>
 					The Greco di Tufo grape is of ancient Greek origin and grows along
 					the coastal areas of Campania in Italy, where it has recently gained
@@ -300,7 +290,7 @@
 			</wine>
 		    <wine>
 				<name>La Segreta Bianco 2021 <domain>Planeta</domain></name>
-				<caseprice>96.00</caseprice>
+				<caseprice>67.62</caseprice>
 				<description>
 					When I first visited this dynamic Sicilian producer in 2004, I found its
 					state-of-the-art winery and the quality of its wines most impressive.  Returning
@@ -312,7 +302,7 @@
 			</wine>
 		    <wine>
 				<name>Etna Bianco 2020 <domain>Planeta</domain></name>
-				<caseprice>184.48</caseprice>
+				<caseprice>127.44</caseprice>
 				<description>
 					The volcanic slopes of Mount Etna in Sicily are home to this distinctive wine from the
 					local Cataratto grape. Pale yellow in colour, it offers aromas of white peaches, yellow plums 
@@ -322,7 +312,7 @@
 			</wine> 
 		    <wine>
 				<name>Albariño 2020 <domain>Fefiñanes</domain></name>
-				<caseprice>156.48</caseprice>
+				<caseprice>117.32</caseprice>
 				<description>
 					Rias Baixas in northwestern Spain is the home of one of my favourite grapes - the fragrant, stylish Albariño.
 					It makes delightful, bone dry, aromatic whites that are completely beguiling, with aromas and flavours of
@@ -331,7 +321,7 @@
 			</wine>
       		<wine>
 				<name>Santorini Estate Assyrtiko 2020 <domain>Argyros</domain></name>
-				<caseprice>225.76</caseprice>
+				<caseprice>169.32</caseprice>
 				<description>
 					I visited Greece with a group of fellow Masters of Wine in 2013, and one of
 					many highlights was our visit to the beautiful Aegean island of Santorini with its blue-domed,
@@ -342,8 +332,8 @@
 				</description>
 			</wine>
  			<wine>
-				<name>Soave Classico ‘Campo dei Tovi’ 2020 <domain>Inama</domain></name>
-				<caseprice>122.88</caseprice>
+				<name>Soave Classico ‘Campo dei Tovi’ 2021 <domain>Inama</domain></name>
+				<caseprice>95.04</caseprice>
 				<description>
 					<person>Stefano Inama</person>, the dynamic, youthful winemaker at this
 					family firm, makes the most delicious Soave I’ve come across. It has unexpected
@@ -355,7 +345,7 @@
 			</wine>
 			<wine>
 		        <name>Chardonnay 2021 <domain>Rustenberg</domain></name>
-		        <caseprice>104.69</caseprice>
+		        <caseprice>78.52</caseprice>
 				<description>
 					Another great find from my 2015 South African visit was this delicious Chardonnay from
 		            Rustenberg in Stellenbosch. I was won over by its elegant apricot and orange-
@@ -365,7 +355,7 @@
 			</wine>
 			<wine>
 				<name>Timorasso ‘Derthona’ 2019 <domain>Walter Massa</domain></name>
-				<caseprice>232.00</caseprice>
+				<caseprice>174.00</caseprice>
 				<description>
 					The Timorasso grape, which grows in a remote corner of Piedmont in Italy, was rescued from
 					near extinction a few decades ago by the determination and energy of one remarkable man, 
@@ -377,7 +367,7 @@
 			</wine>
 			<wine>
 				<name>Viognier ‘Les Vignes d’à Côté’ 2020 <domain>Yves Cuilleron</domain></name>
-				<caseprice>172.32</caseprice>
+				<caseprice>129.22</caseprice>
 				<description>
 					The voluptuous Viognier grape makes deliciously aromatic white wines with notes of honeysuckle, peaches
 					and cream in its original habitat of the northern Rhône Valley in France. <person>Yves Cuilleron</person>
@@ -390,7 +380,7 @@
 		<style name="Rosés" id="rosé">
 			<wine>
 				<name>Gris de Gris 2021 <domain>Domaine du Petit Chaumont</domain></name>
-				<caseprice>101.65</caseprice>
+				<caseprice>76.22</caseprice>
 				<description>
 					I’ve been looking for ages for a reasonably priced, yet tasty rosé, and this one from organically farmed vineyards in the Camargue
 					region of southern France ticks all the boxes. A blend of Grenache Gris and Grenache Noir, it has an attractive pale salmon
@@ -400,7 +390,7 @@
 			</wine>
 			<wine>
 				<name>Château Roubine Premier Cru 2021</name>
-				<caseprice>189.65</caseprice>
+				<caseprice>142.22</caseprice>
 				<description>
 					Provençal rosés are much in vogue at the moment, and many can be short on depth and flavour. Desite its pale, blush pink colour, this lovely blend of the local Tibouren grape plus Cinsault, Grenache, Mourvèdre and
 					Cabernet is bursting with intense aromas and flavours reminiscent of <phrase lang="fr">fraises des bois</phrase> and ripe red fruits. It comes from prime organic vineyards in the heart of Province,
@@ -413,7 +403,7 @@
 		<style name="Reds" id="red">
 			<wine>
 				<name>Corbières Tradition Rouge 2018 <domain>Chateau La Bastide</domain></name>
-				<caseprice>98.96</caseprice>
+				<caseprice>74.22</caseprice>
 				<description>
 					<person>Guilhem Durand</person> at Chateau La Bastide in Corbières in
 					France’s Languedoc makes some of the tastiest, best-value wines in the
@@ -423,7 +413,7 @@
 			</wine>
 			<wine new="yes">
 				<name>Côtes du Rhône ‘Le Temps Est Venu’ 2020 <domain>Domaine Ogier</domain></name>
-				<caseprice>124.32</caseprice>
+				<caseprice>93.00</caseprice>
 				<description>
 					<person>Stéphane Ogier</person> makes some ethereal Syrah wines in the Côte Rôtie, and I was delighted to find that he
 					is also now making a fantastic Côtes du Rhône. This fruity, supple red, a blend of 80%
@@ -433,7 +423,7 @@
 			</wine>
 			<wine>
 				<name>Rocky Road Syrah 2017 <domain>McHenry Hohnen</domain></name>
-				<caseprice>135.12</caseprice>
+				<caseprice>85.32</caseprice>
 				<description>
 					<person>David Hohnen</person>, the talented Aussie who put Cloudy Bay
 					and Cape Mentelle on the map, created this exciting new wine a few
@@ -445,7 +435,7 @@
 			</wine>
 			<wine>
 				<name>Beaujolais ‘Origine’ Vieilles Vignes 2020 <domain>Chermette</domain></name>
-				<caseprice>158.40</caseprice>
+				<caseprice>118.80</caseprice>
 				<description>
 					A really good example of how Beaujolais can and should taste, this 100%
 					Gamay wine is produced organically and bottled without filtration to
@@ -456,7 +446,7 @@
 			</wine>
   			<wine>
 				<name>Pinot Noir 2020 <domain>Waipara Springs</domain></name>
-				<caseprice>108.69</caseprice>
+				<caseprice>81.52</caseprice>
 				<description>
 					Unlike many New Zealand Pinot Noirs, this wine – from vineyards in the warm,
 					dry Waipara Valley near Christchurch on the South Island – bears a relatively modest price tag. 
@@ -466,7 +456,7 @@
 			</wine>
  			<wine>
 				<name>Marqués de Murrieta Rioja Reserva 2016</name>
-					<caseprice>187.25</caseprice>
+					<caseprice>113.16</caseprice>
 				<description>
 					Marqués de Murrieta is one of the two oldest Rioja producers, the other being the Marques de Riscal, and its wines today are better than ever. 
 					The 2016 Reserva, a blend of Tempranillo, Mazuelo, Graciano and Garnacha grapes, has been aged for 20 months in American oak and another year
@@ -475,10 +465,9 @@
 					seems a bit much. Price available on request.
 				</description>
 			</wine>
- 		
-     		<wine>
+ 			<wine>
 				<name>Premium Cabernet/Merlot 2015 <domain>Vergelegen</domain></name>
-				<caseprice>83.60</caseprice>
+				<caseprice>62.48</caseprice>
 				<description>
 					<person>André van Rensburg</person>, the winemaker at Vergelegen in Stellenbosch, South Africa, makes a host of stunning wines, and he organised an
 					extensive tasting for us during our visit in 2015. The Premium Cabernet/Merlot, along with the Premium Sauvignon Blanc, stood out for its amazing quality/price ratio. 
@@ -487,7 +476,7 @@
 			</wine>
      		<wine>
 				<name>RM Nicholson 2018 <domain>Rustenberg</domain></name>
-				<caseprice>86.03</caseprice>
+				<caseprice>64.52</caseprice>
 				<description>
 					Named after former winemaker <person>Reginald Merriman Nicholson</person>, this wine is a blend of Shiraz, Merlot and Cabernet Sauvignon. Aging in American and 
 					French oak barrels adds a note of toasty spice to its rich flavours of blackcurrants, forest berries, dried herbs and black pepper. Not surprsingly, it has won 
@@ -497,7 +486,7 @@
 			</wine>	
      		<wine>
 				<name>Rubicon 2017 <domain>Meerlust</domain></name>
-				<caseprice>238.64</caseprice>
+				<caseprice>164.90</caseprice>
 				<description>
 					A longstanding personal favourite, Rubicon is the flagship of the Meerlust collection,
 					and the 2017 rivals the excellent 2009 in quality. I paid a visit on my trip to South Africa in 2015, and 
@@ -510,7 +499,7 @@
 			</wine>
 			<wine>
 				<name>La Rosine Syrah 2019 <domain>Domaine Michel et Stéphane Ogier</domain></name>
-				<caseprice>202.99</caseprice>
+				<caseprice>152.24</caseprice>
 				<description>
 					<person>Stéphane Ogier</person> makes sublime wines in the Northern Rhone, an impression that was confirmed when I
 					visited his small estate near Ampuis a few years ago. Last year I was treated to a tasting and lunch
@@ -522,7 +511,7 @@
 			</wine>
 			<wine>
 				<name>Rasteau Villages 2019 <domain>Domaine La Soumade</domain></name>
-				<caseprice>153.65</caseprice>
+				<caseprice>90.37</caseprice>
 				<description>
 					I’ve long been a fan of <person>André Romero</person>, who makes some of
 					the greatest wines in the southern Rhône area.  The American wine critic
@@ -535,7 +524,7 @@
 			</wine>
 			<wine>
 				<name>Carmenère Piu 2018 <domain>Inama</domain></name>
-				<caseprice>140.48</caseprice>
+				<caseprice>105.36</caseprice>
 				<description>
 					The gifted <person>Stefano Inama</person> has created another amazing
 					wine, this one a blend of 60% Carmenère, 30% Merlot and 10%
@@ -545,9 +534,9 @@
 					up to its name, which means ‘more’ in Italian (<bottleprice/> a bottle).
 				</description>
 			</wine>
-  		<wine>
+	  		<wine>
 				<name>Barco Reale 2019 <domain>Tenuta di Capezzana</domain></name>
-				<caseprice>158.72</caseprice>
+				<caseprice>119.04 </caseprice>
 				<description>
 					Tenuta di Capezzana is a beautiful estate northwest of Florence dating
 					from the time of the Medicis and built around an elegant Renaissance
@@ -558,7 +547,7 @@
 			</wine>
 			<wine>
 				<name>Chianti Classico 2019 <domain>Fontodi</domain></name>
-				<caseprice>277.92</caseprice>
+				<caseprice>170.94</caseprice>
 				<description>
 					On my first visit to this family-run Tuscan property in 1994, I was
 					impressed not only by the quality of the wines and the impeccable new
@@ -574,7 +563,7 @@
 			</wine>
 			<wine>
 				<name>Bradisismo 2017 <domain>Inama</domain></name>
-				<caseprice>284.96</caseprice>
+				<caseprice>213.72</caseprice>
 				<description>
 					This amazing wine from <person>Stefano Inama</person> is a blend of
 					Cabernet Sauvignon and Carmenère grapes grown on unique
@@ -589,7 +578,7 @@
 		<style name="Champagne &amp; sparkling wine" id="sparkling">
 			<wine>
 				<name>Billecart-Salmon <acronym title="no vintage">NV</acronym> Brut Réserve</name>
-				<caseprice>385.12</caseprice>
+				<caseprice>288.84</caseprice>
 				<description>
 					Everyone has a favourite Champagne and this is mine. I love its
 					delicate, persistent mousse and fresh, elegant style with its subtle
@@ -599,7 +588,7 @@
 			</wine>
 			<wine>
 				<name>Roederer Estate ‘Quartet’</name>
-				<caseprice>227.87</caseprice>
+				<caseprice>173.70</caseprice>
 				<description>
 					I first tasted this stylish California sparkler on a visit to the
 					Carneros in 1998 and loved its elegant style.  (Not
@@ -612,7 +601,7 @@
 			</wine>
 			<wine>
 				<name>Roederer Estate ‘Quartet’ Rosé</name>
-				<caseprice>229.25</caseprice>
+				<caseprice>180.00</caseprice>
 				<description>
 					While the ‘Quartet’ has long been a favourite, it was only on my last visit to Roederer Estate
 					in 2018 that I discovered their fantastic sparkling rosé. A classic blend of 60% Pinot Noir and 40% Chardonnay, 
@@ -620,6 +609,6 @@
 					wine, it has won countless awards. Enjoy it on its own as a festive aperitif or with light starters and main courses (<bottleprice/> a bottle).
 				</description>
 			</wine>
-				</style>
-		</wines>
+		</style>
+	</wines>
 </winelist>
