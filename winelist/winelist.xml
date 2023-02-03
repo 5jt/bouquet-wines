@@ -193,8 +193,8 @@
 				</description>
 			</wine>
 			<wine>
-				<name>Saint Véran ‘Les Pierres Blanches’ 2020 <domain>Cave de Prissé</domain></name>
-				<caseprice>106.00</caseprice>
+				<name>Saint Véran ‘Les Pierres Blanches’ 2021 <domain>Cave de Prissé</domain></name>
+				<caseprice>111.00</caseprice>
 				<description>
 					The impressive Cave de Prissé in the Mâcon region of southern Burgundy is the area’s foremost producer of Saint Véran,
 					and ‘Les Pierres Blanches’ has been providing remarkably consistent enjoyment at very
@@ -203,17 +203,17 @@
 				</description>
 			</wine>
 				<wine>
-				<name>Saint Véran  2020 <domain>Domaine Saumaize-Michelin</domain></name>
-				<caseprice>133.24</caseprice>
+				<name>Saint Véran  2021 <domain>Domaine Saumaize-Michelin</domain></name>
+				<caseprice>159.00</caseprice>
 				<description>
 					Many of the best producers of Saint Véran are now making wines that rival those 
 					of their more renowned and highly-priced neighbour, Pouilly-Fuissé.
 					This delightful wine combines aromatic notes of buttery toast and fresh pears
-					with refreshing acidity and rich, lingering flavours (<bottleprice/> a bottle).
+					with refreshing acidity and rich, lingering flavours and was a standout at a recent tasting of white Burgundies (<bottleprice/> a bottle).
 				</description>
 			</wine>
 			<wine>
-      			<name>Chardonnay Grand Ardèche 2019 <domain>Louis Latour</domain></name>
+      			<name>Chardonnay Grand Ardèche 2020 <domain>Louis Latour</domain></name>
 				<caseprice>94.54</caseprice>
 				<description>
 					<person>Jancis Robinson</person>, <acronym title="Master of Wine">MW</acronym>
@@ -302,7 +302,7 @@
 			</wine>
 		    <wine>
 				<name>Etna Bianco 2020 <domain>Planeta</domain></name>
-				<caseprice>127.44</caseprice>
+				<caseprice>138.48</caseprice>
 				<description>
 					The volcanic slopes of Mount Etna in Sicily are home to this distinctive wine from the
 					local Cataratto grape. Pale yellow in colour, it offers aromas of white peaches, yellow plums 
