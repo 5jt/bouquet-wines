@@ -46,12 +46,10 @@
 														color="gray"
 														font-family="Lucida Sans"
 														>
-					<fo:block text-align-last="justify">
+					<fo:block>
 						<fo:inline font-size="9pt" letter-spacing="0.2em">
 							BOU<fo:inline color="maroon" font-style="italic">Q</fo:inline>UET WINES
 						</fo:inline>
-						<fo:leader leader-pattern="space"/>
-						<fo:inline font-size="8pt">bouquetwines.com</fo:inline>
 					</fo:block>
 					<fo:block-container
 							absolute-position="absolute"
@@ -214,15 +212,13 @@
 		<fo:block
 			font-family="Lucida Sans"
 			font-size="7pt"
-			letter-spacing="0.2em"
+			letter-spacing="0.3em"
 			line-height="2em"
-			margin-left="3.8in"
-			margin-top="18pt"
+			margin-left="3.5in"
+			margin-top="-18pt"
 			linefeed-treatment="preserve"
 			text-transform="uppercase"
-			><fo:inline font-size="16pt" font-weight="bold" letter-spacing="0.2em">
-			BOU<fo:inline color="maroon" font-style="italic">Q</fo:inline>UET
-			WINES</fo:inline>
+		>
 			16 Holland Park Avenue
 			London W11 3QU
 			020 3689 7930
@@ -231,17 +227,17 @@
 		<fo:block
 			font-family="Lucida Sans"
 			font-size="8pt"
-			font-weight="bold"
-			margin-left="-48pt"
-			margin-top="36pt"
+			letter-spacing="0.3em" 
+			margin-bottom="6pt"
+			margin-top="96pt"
 		>
-		WINE LIST
+			WINE LIST
 		</fo:block>
 		<fo:block
-			font-size="48pt"
+			font-size="24pt"
 			font-style="italic"
-			margin-left="-36pt"
-			margin-bottom="36pt"
+			font-weight="100"
+			margin-bottom="12pt"
 		>
 			<xsl:value-of select="../season"/>
 		</fo:block>
@@ -253,7 +249,7 @@
 		<fo:block
 			space-before="12pt"
 			line-height="16pt"
-			margin-right="48pt"
+			margin-right="60pt"
 			text-align="left"
 			>
 			<!-- <xsl:apply-templates select="@break"/> -->
@@ -291,8 +287,15 @@
 
 	<!-- signature -->
 	<xsl:template match="signature">
-		<fo:block margin-bottom="12pt" margin-right="0.75in" text-align="right">
-			<fo:external-graphic src="url(sigandpic.jpg)"/>
+		<fo:block 
+			margin-bottom="12pt" 
+			margin-right="1in" 
+			margin-top="12pt" 
+			text-align="right"
+			>
+			<fo:external-graphic src="url(signature.gif)"/>
+			<xsl:text>   </xsl:text>
+			<fo:external-graphic src="url(pic.jpg)"/>
 		</fo:block>
 	</xsl:template>
 
