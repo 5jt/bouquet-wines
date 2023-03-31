@@ -353,18 +353,6 @@
 		        </description>
 			</wine>
 			<wine>
-				<name>Timorasso ‘Derthona’ 2019 <domain>Walter Massa</domain></name>
-				<caseprice>174.00</caseprice>
-				<description>
-					The Timorasso grape, which grows in a remote corner of Piedmont in Italy, was rescued from
-					near extinction a few decades ago by the determination and energy of one remarkable man, 
-					<person>Walter Massa</person>, who realised its great potential. Today he produces this unique wine from
-					10 hectares of grapes grown on the steep slopes of the Colli Tortonesi to the east of Tortona. It offers a distinctive mix of 
-					mouth-tingling acidity and a rich, creamy texture with notes of red apples, dried apricots and tangerines. It also ages
-					beautifully for up to 15 years, becoming ever more intriguing over time (<bottleprice/> a bottle).
-				</description>
-			</wine>
-			<wine>
 				<name>Viognier ‘Les Vignes d’à Côté’ 2020 <domain>Yves Cuilleron</domain></name>
 				<caseprice>129.22</caseprice>
 				<description>
@@ -376,19 +364,18 @@
 			</wine>
 		</style>
 
-		<style name="Rosés" id="rosé">
+		<style name="Rosés" id="rose">
 			<wine>
-				<name>Gris de Gris 2021 <domain>Domaine du Petit Chaumont</domain></name>
-				<caseprice>76.22</caseprice>
+				<name>Rosé 2021 <domain>Domaine Tour Campanets</domain></name>
+				<caseprice>94.22</caseprice>
 				<description>
-					I’ve been looking for ages for a reasonably priced, yet tasty rosé, and this one from organically farmed vineyards in the Camargue
-					region of southern France ticks all the boxes. A blend of Grenache Gris and Grenache Noir, it has an attractive pale salmon
-					colour and aromas and flavours of white peaches and ripe pears. It’s great as an aperitif or with a variety of fish or chicken dishes as well as spicy Indian or Asian food
+					I’ve been on the lookout for a reasonably priced, yet tasty rosé, and this one from organically farmed vineyards near Aix-en-Provence ticks all the boxes. A blend of Syrah, Grenache, Cabernet Sauvignon and Carignan, it has a lovely pale salmon	
+					colour and wonderful smooth, juicy summer fruit flavours. It’s great as an aperitif or with a variety of fish or chicken dishes as well as spicy Indian or Asian food
 					(<bottleprice/> a bottle).
 				</description>
 			</wine>
 			<wine>
-				<name>Château Roubine Premier Cru 2021</name>
+				<name>Premier Cru 2021 <domain>Château Roubine</domain></name>
 				<caseprice>142.22</caseprice>
 				<description>
 					Provençal rosés are much in vogue at the moment, and many can be short on depth and flavour. Desite its pale, blush pink colour, this lovely blend of the local Tibouren grape plus Cinsault, Grenache, Mourvèdre and
@@ -586,7 +573,7 @@
 			
 		<style name="Champagne &amp; sparkling wine" id="sparkling">
 			<wine>
-				<name>Billecart-Salmon <acronym title="no vintage">NV</acronym> Brut Réserve</name>
+				<name>Brut Réserve <acronym title="no vintage">NV</acronym> <domain>Billecart-Salmon</domain></name>
 				<caseprice>349.68</caseprice>
 				<description>
 					Everyone has a favourite Champagne and this is mine. I love its
@@ -596,7 +583,7 @@
 				</description>
 			</wine>
 			<wine>
-				<name>Roederer Estate ‘Quartet’</name>
+				<name>‘Quartet’ <domain>Roederer Estate</domain></name>
 				<caseprice>173.70</caseprice>
 				<description>
 					I first tasted this stylish California sparkler on a visit to the
@@ -609,7 +596,7 @@
 				</description>
 			</wine>
 			<wine>
-				<name>Roederer Estate ‘Quartet’ Rosé</name>
+				<name>‘Quartet’ Rosé <domain>Roederer Estate</domain></name>
 				<caseprice>180.00</caseprice>
 				<description>
 					While the ‘Quartet’ has long been a favourite, it was only on my last visit to Roederer Estate
