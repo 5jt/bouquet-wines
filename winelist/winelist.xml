@@ -118,8 +118,8 @@
 	<wines>
 		<style name="Whites" id="white">
 			<wine>
-				<name>Grüner Veltliner Löss 2021 <domain>Schloss Gobelsburg</domain></name>
-				<caseprice>70.68</caseprice>
+				<name>Grüner Veltliner Löss 2022 <domain>Schloss Gobelsburg</domain></name>
+				<caseprice>83.52</caseprice>
 				<description>
 					The Grüner Veltliner is Austria’s prime grape variety, producing dry,
 					fruity wines with an attractive peppery, herbal character. The finest
@@ -212,8 +212,8 @@
 				</description>
 			</wine>
 			<wine>
-      			<name>Chardonnay Grand Ardèche 2020 <domain>Louis Latour</domain></name>
-				<caseprice>94.54</caseprice>
+      			<name>Chardonnay Grand Ardèche 2021 <domain>Louis Latour</domain></name>
+				<caseprice>102.52</caseprice>
 				<description>
 					<person>Jancis Robinson</person>, <acronym title="Master of Wine">MW</acronym>
 					colleague and wine writer, described this elegant, subtly oaked
@@ -255,7 +255,7 @@
 			</wine>
 			<wine>
 				<name>Lugana 2021 <domain>Nunzio Ghiraldi</domain></name>
-				<caseprice>81.12</caseprice>
+				<caseprice>81.84</caseprice>
 				<description>
 					Trebbiano di Lugana is actually the Verdicchio grape, and is responsible for some
 					remarkable wines in vineyards near the shores of Lake Garda in Lombardia.
@@ -584,7 +584,7 @@
 			</wine>
 			<wine>
 				<name>‘Quartet’ <domain>Roederer Estate</domain></name>
-				<caseprice>173.70</caseprice>
+				<caseprice>189.70</caseprice>
 				<description>
 					I first tasted this stylish California sparkler on a visit to the
 					Carneros in 1998 and loved its elegant style.  (Not
