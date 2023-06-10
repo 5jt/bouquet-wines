@@ -107,12 +107,6 @@
 						<xsl:with-param name="price-op" select="'up to'"/>
 					</xsl:apply-templates>
 
-					<xsl:apply-templates select="wines/style[@id='rosé']">
-						<xsl:with-param name="break">page</xsl:with-param>
-					</xsl:apply-templates>
-
-					<xsl:apply-templates select="wines/style[@id='sweet']"/>
-
 					<xsl:apply-templates select="wines/style[@id='red']">
 						<xsl:with-param name="break">page</xsl:with-param>
 						<xsl:with-param name="price-op" select="'up to'"/>
@@ -124,6 +118,10 @@
 							Champagne &amp; sparkling
 						</xsl:with-param>
 					</xsl:apply-templates>
+
+					<xsl:apply-templates select="wines/style[@id='rose']"/>
+
+					<xsl:apply-templates select="wines/style[@id='sweet']"/>
 
 					<xsl:apply-templates select="wines/style[@id='white']">
 						<xsl:with-param name="break">page</xsl:with-param>
@@ -148,6 +146,10 @@
 
 					<xsl:apply-templates select="wines/style[@id='sparkling']">
 						<xsl:with-param name="break">page</xsl:with-param>
+						<xsl:with-param name="context">order-form</xsl:with-param>
+					</xsl:apply-templates>
+
+					<xsl:apply-templates select="wines/style[@id='rose']">
 						<xsl:with-param name="context">order-form</xsl:with-param>
 					</xsl:apply-templates>
 
